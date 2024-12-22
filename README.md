@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# XML TJBA to CSV Carne Leão
 
-## Getting Started
+Este aplicativo foi desenvolvido para auxiliar contadores e cartórios da Bahia na conversão de arquivos XML emitidos pelo TJBA (Tribunal de Justiça da Bahia) para o formato CSV, compatível com o sistema de apuração de receitas do Carnê Leão da Receita Federal.
 
-First, run the development server:
+## Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O principal objetivo do aplicativo é simplificar o processo de declaração de receitas mensais no Carnê Leão, extraindo e organizando informações diretamente dos arquivos XML gerados pelo TJBA. Isso proporciona maior praticidade e eficiência no cumprimento das obrigações fiscais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Leitura de arquivos XML do TJBA**: Suporte completo ao formato padrão dos documentos judiciais emitidos pelo tribunal.
+- **Conversão para CSV**: Gera um arquivo CSV pronto para ser importado no sistema Carnê Leão da Receita Federal.
+- **Automação do processo**: Elimina a necessidade de transcrição manual, reduzindo erros e economizando tempo.
+- **Facilidade de uso**: Interface intuitiva para facilitar o trabalho de contadores e cartórios.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como Funciona
 
-## Learn More
+1. **Upload do arquivo XML**: O usuário carrega o arquivo XML emitido pelo TJBA no aplicativo.
+2. **Processamento automático**: O sistema analisa o arquivo e extrai as informações fiscais relevantes.
+3. **Exportação em CSV**: O aplicativo gera um arquivo CSV organizado, pronto para ser utilizado no Carnê Leão.
 
-To learn more about Next.js, take a look at the following resources:
+## Público-Alvo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Contadores**: Profissionais responsáveis pela declaração de receitas judiciais de seus clientes.
+- **Cartórios da Bahia**: Que precisam organizar e declarar as receitas mensais de forma prática e eficiente.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Benefícios
 
-## Deploy on Vercel
+- Redução de erros manuais.
+- Agilidade na apuração de receitas mensais.
+- Compatibilidade total com o sistema da Receita Federal.
+- Facilidade no atendimento às obrigações fiscais.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Desenvolvedor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O aplicativo foi desenvolvido por **Nereu Jr**, disponível para suporte ou dúvidas pelo telefone **(77) 99809-4395**.
+
+## Licença
+
+O aplicativo é oferecido para uso profissional e pessoal, com foco em facilitar o processo fiscal de cartórios e contadores da Bahia. Consulte os termos de uso no repositório oficial.
