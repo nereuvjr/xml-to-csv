@@ -87,6 +87,7 @@ export default function Home() {
     <div className="container mx-auto p-6 space-y-6 max-w-[1400px]">
       <Paper elevation={3} className="p-6 bg-white rounded-lg">
         <h1 className="text-3xl font-bold text-center mb-8">Conversor XML para CSV</h1>
+        <h3 className="text-3xl font-bold text-center mb-8">Converter de XML do TJBA para CSV compatível com Carne Leão da Receita Federal. Desenvolvido por Nereu Jr (77)99809-4395.</h3>
         <FileUpload onUpload={(data) => setCsvData(data)} />
 
         {csvData.length > 0 && (
