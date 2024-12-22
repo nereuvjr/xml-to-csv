@@ -50,7 +50,7 @@ export async function POST(request: Request) {
       const descricaoAto = item.descricaoAto?.[0] || '';
       
       // Add two semicolons between valorTotal and numDaje to create empty column
-      return `${dataPagamento};R01.001.002;117;${valorTotal};;;${numDaje} / ${codDescricao} - ${descricaoAto};PF`;
+      return `${dataPagamento};R01.001.002;117;${valorTotal};;${numDaje} / ${codDescricao} - ${descricaoAto};PF`;
     });
 
     // Split into chunks of 900 lines
